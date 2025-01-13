@@ -14,17 +14,17 @@ The backend API is built using FastAPI, a high-performance web framework for bui
 #!bash
 
 git clone https://github.com/your-username/sentiment-analysis-app.git
-cd sentiment-analysis-app/backend
+cd sentiment-analysis-app/backend```
 
 2) Install required dependencies:
 ```bash
 #!bash
-pip install -r requirements.txt
+pip install -r requirements.txt```
 
 3) Start the FastAPI server:
 ```bash
 #!bash
-uvicorn API:app --reload
+uvicorn API:app --reload```
 
 The FastAPI backend will be available at http://localhost:8000.
 
