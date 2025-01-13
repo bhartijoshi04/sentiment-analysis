@@ -76,7 +76,6 @@ It takes the sentiment analysis data (positive, neutral, negative) and visualize
 The chart updates dynamically based on the data returned from the backend.
 
 # Conclusion
-Conclusion
 This application allows users to perform sentiment analysis on text and visualize the results in an interactive dashboard. The backend, built with FastAPI, handles user authentication, text analysis, and CSV file processing. The front end, built with React, provides a user-friendly interface for uploading files and viewing the results.
 
 
