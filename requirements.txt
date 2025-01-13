@@ -1,0 +1,7 @@
+fastapi[standard]
+uvicorn[standard]
+pandas
+textblob
+passlib
+python-jose
+pydantic
