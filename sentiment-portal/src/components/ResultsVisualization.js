@@ -2,7 +2,7 @@ import React from "react";
 import { PieChart, Pie, Cell, Tooltip, Legend, BarChart, Bar, XAxis, YAxis, CartesianGrid, ResponsiveContainer } from "recharts";
 
 function ResultsVisualization({ results }) {
-  // Calculate sentiment distribution
+  // Calculates sentiment distribution
   const sentimentCounts = {
     positive: results.filter((r) => r.sentiment === "positive").length,
     neutral: results.filter((r) => r.sentiment === "neutral").length,
