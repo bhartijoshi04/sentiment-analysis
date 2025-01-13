@@ -15,9 +15,9 @@ function ResultsVisualization({ results }) {
     { name: "Negative", value: sentimentCounts.negative },
   ];
 
-  // Assume results have timestamps for sentiment change over time
+  
   const timeData = results.map((r, index) => ({
-    time: new Date(r.timestamp).toLocaleString(), // assuming each result has a timestamp
+    time: new Date(r.timestamp).toLocaleString(), 
     positive: r.sentiment === "positive" ? 1 : 0,
     neutral: r.sentiment === "neutral" ? 1 : 0,
     negative: r.sentiment === "negative" ? 1 : 0,
