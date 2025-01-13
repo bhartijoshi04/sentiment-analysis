@@ -1,4 +1,4 @@
-<font size="15">**Sentiment Analysis Web Application - React & FastAPI**</font>
+# **Sentiment Analysis Web Application - React & FastAPI** (h1)
 
 This project is a full-stack application that performs sentiment analysis on textual data. The backend is developed using **FastAPI**, and the front end is built using **React**. The application accepts text input (in the form of CSV files) and provides sentiment analysis (positive, neutral, or negative) for each entry.The results are displayed in a visual format (e.g., bar charts, pie charts) for easy understanding.
 
