@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import FileUpload from "./components/FileUpload";
 import ResultsVisualization from "./components/ResultsVisualization";
-import './App.css'; // Assuming you add a CSS file for styling
+import './App.css';
 
 function App() {
   const [results, setResults] = useState(null);
