@@ -7,10 +7,15 @@ This project is a full-stack application that performs sentiment analysis on tex
 <font size="10">**Overview**</font>
 The backend API is built using FastAPI, a high-performance web framework for building APIs with Python 3.10+ based on standard Python-type hints. We use **TextBlob** for sentiment analysis and **JWT authentication** to secure the endpoints. The API exposes endpoints to analyze individual text inputs as well as CSV files containing multiple entries.
 
-'''bash
+```bash
+#!/bin/bash
 
-git clone https://github.com/your-username/sentiment-analysis-app.git
-cd sentiment-analysis-app/backend
+# This is a sample Bash script
+echo "Hello, World!"
+for i in {1..5}; do
+  echo "Iteration $i"
+done
+
 
 
 
