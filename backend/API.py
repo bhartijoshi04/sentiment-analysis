@@ -27,7 +27,7 @@ fake_users_db = {
     }
 }
 
-# FastAPI app instance
+# FastAPI app
 app = FastAPI()
 
 app.add_middleware(
