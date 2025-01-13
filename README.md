@@ -14,32 +14,11 @@ The backend API is built using FastAPI, a high-performance web framework for bui
 #!bash
 
 git clone https://github.com/your-username/sentiment-analysis-app.git
-cd sentiment-analysis-app/backend```
+cd sentiment-analysis-app/backend
+```
 
 2) Install required dependencies:
-```bash
-#!bash
-pip install -r requirements.txt```
 
-3) Start the FastAPI server:
-```bash
-#!bash
-uvicorn API:app --reload```
-
-The FastAPI backend will be available at http://localhost:8000.
-
-# API Endpoints
-1) **POST /token - User Authentication**
-This endpoint generates a JWT token after authenticating the user. The token will be used for all subsequent requests to the protected API endpoints.
-2) **POST /analyze - Sentiment Analysis for Text**
-This endpoint analyzes the sentiment of a single piece of text and returns the sentiment score and polarity.
-3) **POST /analyze-csv - Sentiment Analysis for CSV File**
-This endpoint accepts a CSV file with id, text, and timestamp columns. The file is processed, and sentiment analysis results are returned for each row.
-The CSV file is parsed, and sentiment analysis is performed on each text entry using **TextBlob**.
-The result for each entry includes the sentiment (positive, neutral, negative), polarity score, and subjectivity score.
-
-# Frontend - React
-**Installation**
 
 
 
